@@ -321,7 +321,7 @@ elif st.session_state.game_state == 'end':
     # 등급 메시지
     tier_msg = ""
     if total_score >= 600:
-        tier_msg = "찐사랑💖 인정합니다!"
+        tier_msg = "찐사랑💖"
         st.balloons()
     elif total_score >= 200:
         tier_msg = "조금 더 노력해줘💘"
